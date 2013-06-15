@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="libhdhomerun" root=".">
+      <in>hdhomerun.h</in>
+      <in>hdhomerun_channels.c</in>
+      <in>hdhomerun_channels.h</in>
+      <in>hdhomerun_channelscan.c</in>
+      <in>hdhomerun_channelscan.h</in>
+      <in>hdhomerun_config.c</in>
+      <in>hdhomerun_control.c</in>
+      <in>hdhomerun_control.h</in>
+      <in>hdhomerun_debug.c</in>
+      <in>hdhomerun_debug.h</in>
+      <in>hdhomerun_device.c</in>
+      <in>hdhomerun_device.h</in>
+      <in>hdhomerun_device_selector.c</in>
+      <in>hdhomerun_device_selector.h</in>
+      <in>hdhomerun_discover.c</in>
+      <in>hdhomerun_discover.h</in>
+      <in>hdhomerun_os.h</in>
+      <in>hdhomerun_os_posix.c</in>
+      <in>hdhomerun_os_posix.h</in>
+      <in>hdhomerun_os_windows.c</in>
+      <in>hdhomerun_os_windows.h</in>
+      <in>hdhomerun_pkt.c</in>
+      <in>hdhomerun_pkt.h</in>
+      <in>hdhomerun_sock.h</in>
+      <in>hdhomerun_sock_posix.c</in>
+      <in>hdhomerun_sock_windows.c</in>
+      <in>hdhomerun_types.h</in>
+      <in>hdhomerun_video.c</in>
+      <in>hdhomerun_video.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem></pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="hdhomerun_os_windows.c" ex="true" tool="0" flavor2="0">
+      </item>
+      <item path="hdhomerun_os_windows.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="hdhomerun_sock_windows.c" ex="true" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

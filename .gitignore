@@ -1,0 +1,6 @@
+# Recursive Extension-based ignore
+*.exe
+*.dll
+
+# Exact path ignore
+/nbproject/private
