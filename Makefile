@@ -38,6 +38,9 @@ else
   endif
 endif
 
+debug : CFLAGS += -DDEBUG
+debug: all;
+
 all : hdhomerun_config$(BINEXT) libhdhomerun$(LIBEXT)
 
 hdhomerun_config$(BINEXT) : hdhomerun_config.c $(LIBSRCS)
